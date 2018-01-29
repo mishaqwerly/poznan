@@ -1,0 +1,482 @@
+@import "colors"
+
+html, body
+	font-size: 10px
+
+body
+	font-family: 'Arial', sans-serif
+*
+	margin: 0
+	padding: 0
+
+a
+	text-decoration: none
+
+li
+	list-style: none
+
+p
+	color: $gray-text
+
+h1
+	font-family: "League Gothic"
+	font-size: 6rem
+	font-weight: 400
+	text-transform: uppercase
+	color: $blue-color
+
+h2
+	font-family: "League Gothic"
+	font-size: 3.2rem
+	font-weight: 400
+	text-transform: uppercase
+	color: $blue-color
+
+h3
+	font-family: "League Gothic"
+	font-size: 3rem
+	font-weight: 400
+	text-transform: uppercase
+	color: $blue-color
+
+h4
+	font-family: "League Gothic"
+	font-size: 2.2rem
+	font-weight: 400
+	text-transform: uppercase
+	color: $blue-color
+
+
+
+.d-flex
+	display: flex
+
+.j-content-between
+	justify-content: space-between
+
+/* .main
+	width: 1020px
+	margin: 0 auto
+	background-color: #FFF */
+ 
+/* header */
+
+.wrapper
+	width: 960px
+	margin: 0 auto
+
+
+.header
+	background-color: #fff
+	padding: 10px 0px 11px 0
+	text-align: center
+	border-bottom: 2px solid $lighter-blue-color
+
+.logo
+	position: relative
+	a
+		color: $blue-color
+		font-family: "League Gothic", sans-serif
+		font-size: 3.2rem
+		font-weight: 400
+		text-transform: uppercase
+
+.lighter-blue-color
+	color: $lighter-blue-color
+
+.top-menu
+	margin-top: 9px
+	li
+		justify-content: center
+
+.menu
+	a
+		display: block
+		color: #707070
+		font-size: 1rem
+		font-weight: 400
+		text-transform: uppercase
+		padding: 5px 16px 4px 18px
+		margin: 0 8px
+		&:hover, &.active
+			box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25)
+			border: 1px solid #045279
+			background-color: #076e9f
+			background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%)
+			padding: 4px 15px 3px 17px
+			color: #fff
+
+.social-icons
+	position: absolute
+	margin-top: 6px
+	top: 0
+	right: 0
+
+.icon
+	width: 16px
+	height: 16px
+	display: inline-block
+	margin-left: 7px
+	background-repeat: no-repeat
+	background-position: center
+
+.evernote-icon
+	background-image: url(../img/evernote_icon.png)
+	padding-right: 2px
+
+.twt-icon
+	background-image: url(../img/twt_icon.png)
+
+.pint-icon
+	background-image: url(../img/pint_icon.png)
+
+.linkd-icon
+	background-image: url(../img/linkd_icon.png)
+
+.fb-icon
+	background-image: url(../img/fb_icon.png)
+
+.del-icon
+	background-image: url(../img/del_icon.png)
+
+/* section-2 */
+
+.section-2
+	background-image: url(../img/main-img.jpg)
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: center
+
+.slide
+	margin: 0 auto
+	text-align: center
+	padding: 90px 0 77px
+	cursor: pointer
+	.h3
+		margin-top: 19px
+
+.h1
+	display: inline-block
+	padding: 6px 28px 1px 32px
+	background-color: rgba(255, 255, 255, 0.8)
+
+.h3
+	display: inline-block
+	padding: 7px 6px 4px 11px
+	background-color: rgba(255, 255, 255, 0.7)
+
+.comments-people-sec
+	background-color: rgba(0, 0, 0, 0.5)
+	padding: 26px 0
+
+.comment
+	width: 154px
+	height: 69px
+	justify-content: space-between
+	align-items: center
+	background-color: rgba(255, 255, 255, 0.9)
+	margin-left: 36px
+	cursor: pointer
+	img
+		width: 71px
+		margin-left: -36px
+
+.comment-description
+	width: 95px
+	color: #515151
+	color: #515151
+	font-size: 9px
+	margin-right: 10px
+	line-height: 1.4
+	padding-top: 3px
+	p
+		font-family: Arial
+		font-style: italic
+		font-weight: 400
+		line-height: 1.4
+	a
+		color: #828282
+		font-size: 9px
+		padding-top: 3px
+		display: inline-block
+
+/* section-3 */
+
+.section-3
+	border-top: 2px solid $lighter-blue-color 
+
+.left-sidebar
+	width: 200px
+	border-right: 1px dotted #d5d5d5
+
+.about-author
+	margin-left: 6px
+	padding: 24px 25px 13px 0
+	line-height: 1.8
+	h4
+		margin-bottom: 3px
+
+
+.border-bottom-dotted
+	border-bottom: 1px dotted #d5d5d5
+
+
+.related
+	margin: 14px 0 0 6px
+	padding-bottom: 17px
+	h4
+		margin-bottom: 10px
+
+
+.post-description
+	width: 95px
+	flex-wrap: wrap
+	margin-left: 18px
+	a
+		color: $gray-text
+	
+.related-post
+	align-items: center
+	margin-bottom: 8px
+	img
+		width: 52px 
+
+.post-topic
+	width: 100%
+	font-weight: 400
+	font-weight: bold
+	text-transform: uppercase
+	margin-bottom: 5px
+
+.speech-bubbles
+	margin-right: 4px
+	img
+		width: 17px
+
+.blue-color
+	color: $blue-color
+	font-weight: bold
+
+
+.currency
+	margin-left: 5px
+	padding: 19px 0 40px 0
+
+.currency-table
+	margin-top: 4px
+	text-align: center
+	color: $blue-color
+	td
+		width: 39px
+		height: 19px
+
+.name-tr
+	background-color: #076e9f
+	color: #fff
+
+.lighter-tr
+	background-color: #c7e9fa
+
+.darker-tr
+	background-color: #b2e1f8
+
+.growth-arrow, .decline-arrow
+	img
+		width: 15px
+		padding-top: 3px
+
+.content
+	width: 753px
+	margin-top: -11px
+	background-color: #FFF
+	border-top: 2px solid $lighter-blue-color
+	border-bottom: 1px dotted #d5d5d5
+
+.content-post
+	padding: 25px 0 19px 13px
+	border-right: 1px dotted #d5d5d5
+
+.content-post-description
+	margin-top: 9px
+
+.blue-circle
+	width: 51px
+	height: 51px
+	border-radius: 50%
+	background-color: $lighter-blue-color
+	color: #fff
+	font-size: 0.8rem
+	text-align: center
+	display: flex
+	flex-direction: column
+	justify-content: center
+
+.author-post-icon
+	background-image: url(../img/user-male-icon.png)
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+	margin-left: 10px
+
+.content-author-text
+	width: 550px
+	padding: 0 50px 0 27px
+	line-height: 1.8
+
+.content-post-bottom-part
+	margin-top: 24px
+	align-items: center
+	justify-content: space-between
+
+.post-footer-meta
+	align-items: center
+	background-color: #90d4f5
+	padding: 5px 7px 4px 0
+	margin-right: -5px
+	position: relative
+
+
+.btn
+	display: inline-block
+	background-image: url(../img/btn-1.png)
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+	padding: 7px 12px 10px 12px
+	color: #fff
+	margin-left: 140px
+	font-weight: bold
+
+.content-post-likes, .content-post-comments
+	align-items: center
+	margin-left: 14px
+	a
+		color: $blue-color
+		img
+			width: 17px
+			display: block
+
+.m-right
+	margin-right: 7px
+
+
+.number-likes, .number-comments
+	color: $blue-color
+
+.content-post-bottom-corner
+	position: absolute
+	right: 0
+	top: 0
+	margin-top: 24px
+	img
+		width: 6px
+
+.content-all-posts
+	padding-left: 13px
+	flex-wrap: wrap
+	justify-content: space-between
+
+.some-post
+	width: 363px
+	background-color: #eaeaea
+	border-top-left-radius: 12px
+	margin: 18px 0 28px 0
+	padding-bottom: 37px
+	position: relative
+
+.blue-color-text
+	color: $blue-color
+
+.some-post-header
+	color: #878787
+	padding-bottom: 14px
+
+.some-post-description
+	padding: 23px 77px 12px 32px
+
+.some-posts-footer
+	width: 100%
+	background-color: #f4f3f3
+	padding: 8px 0 0 0
+	justify-content: flex-end
+	position: absolute
+	left: 0
+	bottom: 0
+	z-index: 2
+	img
+		width: 17px
+		margin-right: 2px
+
+.post-shadow
+	width: 100%
+	height: 40px
+	background-image: url(../img/shadow.png)
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+	position: absolute
+	left: 0
+	bottom: 0
+	margin-bottom: -9px
+	z-index: 1
+
+.m-left
+	margin-left: 14px
+
+
+.banner
+	width: 100%
+	background-color: #f4f3f3
+	margin-bottom: 34px
+	text-align: center
+	font-size: 1.2rem
+	color: #636363
+	cursor: pointer
+	background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.05) 100%)
+	position: relative
+
+.banner-content
+	padding: 34px 0 33px 0
+
+.banner-shadow
+	width: 100%
+	height: 12px
+	background-image: url(../img/banner-shadow.png)
+	position: absolute
+	left: 0
+	bottom: 0
+	margin-bottom: -12px
+
+/* section-4 */
+
+.section-4
+	margin-top: 12px
+	h2
+		margin-left: 7px
+
+#map
+	width: 100%
+	height: 200px
+	margin-top: 10px
+
+/* footer-section */
+
+.footer-nav
+	padding: 12px 0 11px 7px
+	justify-content: space-between
+	border-bottom: 1px dotted #d5d5d5
+	align-items: center
+
+.logo-footer
+	a
+		color: $blue-color
+		font-family: "League Gothic", sans-serif
+		font-size: 1.6rem
+		font-weight: 400
+		text-transform: uppercase
+
+.copyright
+	text-align: center
+	padding: 13px 0 10px 0
+	color: #787878
+	text-transform: uppercase
