@@ -3,8 +3,7 @@ $('.slider').slick({
   autoplaySpeed: 2000,
   speed: 2000,
   cssEase: 'ease',
-  arrows: false,
-  pauseOnHover: true 
+  arrows: false
 });
 
 
